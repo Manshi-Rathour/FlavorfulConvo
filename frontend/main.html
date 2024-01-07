@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="myContainer">
+    <header>
+        <nav>
+            <a href="#home">HOME</a> |
+            <a href="#menu">MENU</a> |
+            <a href="#location">LOCATION</a> |
+            <a href="#aboutus">ABOUT US</a> |
+            <a href="#contactus">CONTACT US</a>
+        </nav>
+    </header>
+
+    <section id="home">
+		<img src="/static/banner.png" >
+        <!-- Add images here -->
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="grid-container">
+        <img src="/static/menu.png" alt="Menu item 1">
+    </div>
+    </section>
+
+    <section id="place-order">
+        <h2>Utilize Our Right-Side Chatbot for Ordering</h2>
+
+    </section>
+
+    <section id="location">
+        <h2>Location</h2>
+        <p>Patna, Bihar</p>
+        <!-- Add map widget here -->
+    </section>
+
+    <section id="contactus">
+        <h2>Contact Us</h2>
+        <p>Got questions? Want to place an order? Call us at +91 1234567890 or email us at xyz@gamil.com</p>
+    </section>
+
+    
+    <iframe
+    class="chat-bot"
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/ab6cf342-9886-4d97-b177-6308b1b12520">
+</iframe>
+      
+
+	
+ 
+	</div>
+</body>
+<script src="./main.js"></script>
+</html>
